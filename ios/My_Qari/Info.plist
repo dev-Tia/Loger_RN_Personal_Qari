@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>Qari 개인용</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+		<key>NSExceptionDomains</key>
+		<dict>
+			<key>localhost</key>
+			<dict>
+				<key>NSExceptionAllowsInsecureHTTPLoads</key>
+				<true/>
+			</dict>
+		</dict>
+	</dict>
+	<key>NSCameraUsageDescription</key>
+	<string>QR코드 인식을 위해 카메라가 필요합니다.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>나의 위치와 방문한 매장의 위치 검증을 위해 사용자의 위치가 필요합니다.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>나의 위치와 방문한 매장의 위치 검증을 위해 사용자의 위치가 필요합니다.</string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Fonts/AntDesign.ttf</string>
+		<string>Fonts/daum_semibold.ttf</string>
+		<string>Fonts/Entypo.ttf</string>
+		<string>Fonts/Evillcons.ttf</string>
+		<string>Fonts/Feather.ttf</string>
+		<string>Fonts/FontAwesome5_Brands.ttf</string>
+		<string>Fonts/FontAwesome5_Regular.ttf</string>
+		<string>Fonts/FontAwesome5_Solid.ttf</string>
+		<string>Fonts/Fontisto.ttf</string>
+		<string>Fonts/Foundation.ttf</string>
+		<string>Fonts/Ionicons.ttf</string>
+		<string>Fonts/Jua-Regular.ttf</string>
+		<string>Fonts/KBIZ한마음고딕 L.ttf</string>
+		<string>Fonts/KBIZ한마음고딕 M.ttf</string>
+		<string>Fonts/MeterialCommunityIcons.ttf</string>
+		<string>Fonts/MeterialIcons.ttf</string>
+		<string>Fonts/MG.TTF</string>
+		<string>Fonts/NotoSansKR-Medium.otf</string>
+		<string>Fonts/NotoSansKR-Regular.otf</string>
+		<string>Fonts/Octicons.ttf</string>
+		<string>Fonts/PureunJeonnam.otf</string>
+		<string>Fonts/SimpleLineIcons.ttf</string>
+		<string>Fonts/Spoqa Han Sans Regular.ttf</string>
+		<string>Fonts/Zocial.ttf</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>
